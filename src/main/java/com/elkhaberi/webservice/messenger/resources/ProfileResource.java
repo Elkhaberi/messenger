@@ -6,6 +6,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import com.elkhaberi.webservice.messenger.model.Profile;
+import com.elkhaberi.webservice.messenger.service.ProfileService;
 
 
 @Path("/profiles")

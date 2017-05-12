@@ -1,4 +1,4 @@
-package com.elkhaberi.webservice.messenger.resources;
+package com.elkhaberi.webservice.messenger.service;
 
 import java.util.ArrayList;
 import java.util.List;
