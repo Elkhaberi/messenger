@@ -9,7 +9,7 @@ import com.elkhaberi.webservice.messenger.model.Profile;
 import com.elkhaberi.webservice.messenger.service.ProfileService;
 
 
-@Path("/profiles")
+@Path("/profile")
 public class ProfileResource {
 	
 	ProfileService profileService = new ProfileService();

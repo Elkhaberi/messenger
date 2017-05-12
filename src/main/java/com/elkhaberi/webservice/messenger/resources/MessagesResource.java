@@ -11,7 +11,7 @@ import com.elkhaberi.webservice.messenger.model.Message;
 import com.elkhaberi.webservice.messenger.service.MessageService;
 
 
-@Path("/messages")
+@Path("/message")
 public class MessagesResource {
 	MessageService messageService = new MessageService();
 	
