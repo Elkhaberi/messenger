@@ -7,11 +7,14 @@ import com.elkhaberi.webservice.messenger.model.Profile;
 
 public class ProfileService {
 	
-	Profile profile1 = new Profile(10,"A.Elkhaberi","Ahmed","Elkhaberi");
-	Profile profile2 = new Profile(11,"O.Elkhaberi","Omer","Elkhaberi");
-	Profile profile3 = new Profile(12,"Abdo.Elkhaberi","Abdelrahman","Elkhaberi");
+
 	
 	public List<Profile> getAllProfile(){
+		
+		Profile profile1 = new Profile(10,"A.Elkhaberi","Ahmed","Elkhaberi");
+		Profile profile2 = new Profile(11,"O.Elkhaberi","Omer","Elkhaberi");
+		Profile profile3 = new Profile(12,"Abdo.Elkhaberi","Abdelrahman","Elkhaberi");
+		
 		List<Profile> list =new ArrayList<Profile>();
 		list.add(profile1);
 		list.add(profile2);
